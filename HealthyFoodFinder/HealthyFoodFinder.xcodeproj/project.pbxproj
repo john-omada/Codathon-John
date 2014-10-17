@@ -14,6 +14,11 @@
 		5254CBEC19F18AC7001AADFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5254CBEB19F18AC7001AADFE /* Images.xcassets */; };
 		5254CBEF19F18AC7001AADFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5254CBED19F18AC7001AADFE /* LaunchScreen.xib */; };
 		5254CBFB19F18AC7001AADFE /* HealthyFoodFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5254CBFA19F18AC7001AADFE /* HealthyFoodFinderTests.m */; };
+		5254CC0919F18C15001AADFE /* FoodData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5254CC0719F18C15001AADFE /* FoodData.xcdatamodeld */; };
+		5254CC0B19F1905B001AADFE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5254CC0A19F1905B001AADFE /* MapKit.framework */; };
+		5254CC0D19F19744001AADFE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5254CC0C19F19744001AADFE /* CoreLocation.framework */; };
+		5254CC0F19F19D03001AADFE /* Here.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5254CC0E19F19D03001AADFE /* Here.gpx */; };
+		5254CC1519F1C418001AADFE /* YelpData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5254CC1419F1C418001AADFE /* YelpData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		5254CBF419F18AC7001AADFE /* HealthyFoodFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyFoodFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5254CBF919F18AC7001AADFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5254CBFA19F18AC7001AADFE /* HealthyFoodFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthyFoodFinderTests.m; sourceTree = "<group>"; };
+		5254CC0819F18C15001AADFE /* FoodData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodData.xcdatamodel; sourceTree = "<group>"; };
+		5254CC0A19F1905B001AADFE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5254CC0C19F19744001AADFE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5254CC0E19F19D03001AADFE /* Here.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Here.gpx; sourceTree = "<group>"; };
+		5254CC1319F1C418001AADFE /* YelpData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpData.h; sourceTree = "<group>"; };
+		5254CC1419F1C418001AADFE /* YelpData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5254CC0D19F19744001AADFE /* CoreLocation.framework in Frameworks */,
+				5254CC0B19F1905B001AADFE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,9 @@
 		5254CBD219F18AC7001AADFE = {
 			isa = PBXGroup;
 			children = (
+				5254CC0E19F19D03001AADFE /* Here.gpx */,
+				5254CC0C19F19744001AADFE /* CoreLocation.framework */,
+				5254CC0A19F1905B001AADFE /* MapKit.framework */,
 				5254CBDD19F18AC7001AADFE /* HealthyFoodFinder */,
 				5254CBF719F18AC7001AADFE /* HealthyFoodFinderTests */,
 				5254CBDC19F18AC7001AADFE /* Products */,
@@ -81,6 +97,9 @@
 		5254CBDD19F18AC7001AADFE /* HealthyFoodFinder */ = {
 			isa = PBXGroup;
 			children = (
+				5254CC0619F18B9C001AADFE /* Controllers */,
+				5254CC0519F18B90001AADFE /* Views */,
+				5254CC0419F18B87001AADFE /* Models */,
 				5254CBE219F18AC7001AADFE /* AppDelegate.h */,
 				5254CBE319F18AC7001AADFE /* AppDelegate.m */,
 				5254CBE519F18AC7001AADFE /* ViewController.h */,
@@ -117,6 +136,30 @@
 				5254CBF919F18AC7001AADFE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5254CC0419F18B87001AADFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5254CC0719F18C15001AADFE /* FoodData.xcdatamodeld */,
+				5254CC1319F1C418001AADFE /* YelpData.h */,
+				5254CC1419F1C418001AADFE /* YelpData.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5254CC0519F18B90001AADFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5254CC0619F18B9C001AADFE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5254CBEA19F18AC7001AADFE /* Main.storyboard in Resources */,
+				5254CC0F19F19D03001AADFE /* Here.gpx in Resources */,
 				5254CBEF19F18AC7001AADFE /* LaunchScreen.xib in Resources */,
 				5254CBEC19F18AC7001AADFE /* Images.xcassets in Resources */,
 			);
@@ -220,8 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5254CBE719F18AC7001AADFE /* ViewController.m in Sources */,
+				5254CC1519F1C418001AADFE /* YelpData.m in Sources */,
 				5254CBE419F18AC7001AADFE /* AppDelegate.m in Sources */,
 				5254CBE119F18AC7001AADFE /* main.m in Sources */,
+				5254CC0919F18C15001AADFE /* FoodData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +470,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5254CC0719F18C15001AADFE /* FoodData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5254CC0819F18C15001AADFE /* FoodData.xcdatamodel */,
+			);
+			currentVersion = 5254CC0819F18C15001AADFE /* FoodData.xcdatamodel */;
+			path = FoodData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5254CBD319F18AC7001AADFE /* Project object */;
 }
