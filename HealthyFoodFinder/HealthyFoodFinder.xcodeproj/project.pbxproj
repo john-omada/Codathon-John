@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5254CBE119F18AC7001AADFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5254CBE019F18AC7001AADFE /* main.m */; };
+		5254CBE419F18AC7001AADFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5254CBE319F18AC7001AADFE /* AppDelegate.m */; };
+		5254CBE719F18AC7001AADFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5254CBE619F18AC7001AADFE /* ViewController.m */; };
+		5254CBEA19F18AC7001AADFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5254CBE819F18AC7001AADFE /* Main.storyboard */; };
+		5254CBEC19F18AC7001AADFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5254CBEB19F18AC7001AADFE /* Images.xcassets */; };
+		5254CBEF19F18AC7001AADFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5254CBED19F18AC7001AADFE /* LaunchScreen.xib */; };
+		5254CBFB19F18AC7001AADFE /* HealthyFoodFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5254CBFA19F18AC7001AADFE /* HealthyFoodFinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5254CBF519F18AC7001AADFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5254CBD319F18AC7001AADFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5254CBDA19F18AC7001AADFE;
+			remoteInfo = HealthyFoodFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5254CBDB19F18AC7001AADFE /* HealthyFoodFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyFoodFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5254CBDF19F18AC7001AADFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5254CBE019F18AC7001AADFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5254CBE219F18AC7001AADFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5254CBE319F18AC7001AADFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5254CBE519F18AC7001AADFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5254CBE619F18AC7001AADFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5254CBE919F18AC7001AADFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5254CBEB19F18AC7001AADFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5254CBEE19F18AC7001AADFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5254CBF419F18AC7001AADFE /* HealthyFoodFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyFoodFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5254CBF919F18AC7001AADFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5254CBFA19F18AC7001AADFE /* HealthyFoodFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthyFoodFinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5254CBD819F18AC7001AADFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5254CBF119F18AC7001AADFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5254CBD219F18AC7001AADFE = {
+			isa = PBXGroup;
+			children = (
+				5254CBDD19F18AC7001AADFE /* HealthyFoodFinder */,
+				5254CBF719F18AC7001AADFE /* HealthyFoodFinderTests */,
+				5254CBDC19F18AC7001AADFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5254CBDC19F18AC7001AADFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5254CBDB19F18AC7001AADFE /* HealthyFoodFinder.app */,
+				5254CBF419F18AC7001AADFE /* HealthyFoodFinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5254CBDD19F18AC7001AADFE /* HealthyFoodFinder */ = {
+			isa = PBXGroup;
+			children = (
+				5254CBE219F18AC7001AADFE /* AppDelegate.h */,
+				5254CBE319F18AC7001AADFE /* AppDelegate.m */,
+				5254CBE519F18AC7001AADFE /* ViewController.h */,
+				5254CBE619F18AC7001AADFE /* ViewController.m */,
+				5254CBE819F18AC7001AADFE /* Main.storyboard */,
+				5254CBEB19F18AC7001AADFE /* Images.xcassets */,
+				5254CBED19F18AC7001AADFE /* LaunchScreen.xib */,
+				5254CBDE19F18AC7001AADFE /* Supporting Files */,
+			);
+			path = HealthyFoodFinder;
+			sourceTree = "<group>";
+		};
+		5254CBDE19F18AC7001AADFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5254CBDF19F18AC7001AADFE /* Info.plist */,
+				5254CBE019F18AC7001AADFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5254CBF719F18AC7001AADFE /* HealthyFoodFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5254CBFA19F18AC7001AADFE /* HealthyFoodFinderTests.m */,
+				5254CBF819F18AC7001AADFE /* Supporting Files */,
+			);
+			path = HealthyFoodFinderTests;
+			sourceTree = "<group>";
+		};
+		5254CBF819F18AC7001AADFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5254CBF919F18AC7001AADFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5254CBDA19F18AC7001AADFE /* HealthyFoodFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5254CBFE19F18AC7001AADFE /* Build configuration list for PBXNativeTarget "HealthyFoodFinder" */;
+			buildPhases = (
+				5254CBD719F18AC7001AADFE /* Sources */,
+				5254CBD819F18AC7001AADFE /* Frameworks */,
+				5254CBD919F18AC7001AADFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthyFoodFinder;
+			productName = HealthyFoodFinder;
+			productReference = 5254CBDB19F18AC7001AADFE /* HealthyFoodFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5254CBF319F18AC7001AADFE /* HealthyFoodFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5254CC0119F18AC7001AADFE /* Build configuration list for PBXNativeTarget "HealthyFoodFinderTests" */;
+			buildPhases = (
+				5254CBF019F18AC7001AADFE /* Sources */,
+				5254CBF119F18AC7001AADFE /* Frameworks */,
+				5254CBF219F18AC7001AADFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5254CBF619F18AC7001AADFE /* PBXTargetDependency */,
+			);
+			name = HealthyFoodFinderTests;
+			productName = HealthyFoodFinderTests;
+			productReference = 5254CBF419F18AC7001AADFE /* HealthyFoodFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5254CBD319F18AC7001AADFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "John Frankel";
+				TargetAttributes = {
+					5254CBDA19F18AC7001AADFE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5254CBF319F18AC7001AADFE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5254CBDA19F18AC7001AADFE;
+					};
+				};
+			};
+			buildConfigurationList = 5254CBD619F18AC7001AADFE /* Build configuration list for PBXProject "HealthyFoodFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5254CBD219F18AC7001AADFE;
+			productRefGroup = 5254CBDC19F18AC7001AADFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5254CBDA19F18AC7001AADFE /* HealthyFoodFinder */,
+				5254CBF319F18AC7001AADFE /* HealthyFoodFinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5254CBD919F18AC7001AADFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5254CBEA19F18AC7001AADFE /* Main.storyboard in Resources */,
+				5254CBEF19F18AC7001AADFE /* LaunchScreen.xib in Resources */,
+				5254CBEC19F18AC7001AADFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5254CBF219F18AC7001AADFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5254CBD719F18AC7001AADFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5254CBE719F18AC7001AADFE /* ViewController.m in Sources */,
+				5254CBE419F18AC7001AADFE /* AppDelegate.m in Sources */,
+				5254CBE119F18AC7001AADFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5254CBF019F18AC7001AADFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5254CBFB19F18AC7001AADFE /* HealthyFoodFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5254CBF619F18AC7001AADFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5254CBDA19F18AC7001AADFE /* HealthyFoodFinder */;
+			targetProxy = 5254CBF519F18AC7001AADFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5254CBE819F18AC7001AADFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5254CBE919F18AC7001AADFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5254CBED19F18AC7001AADFE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5254CBEE19F18AC7001AADFE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5254CBFC19F18AC7001AADFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5254CBFD19F18AC7001AADFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5254CBFF19F18AC7001AADFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthyFoodFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5254CC0019F18AC7001AADFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthyFoodFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5254CC0219F18AC7001AADFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HealthyFoodFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthyFoodFinder.app/HealthyFoodFinder";
+			};
+			name = Debug;
+		};
+		5254CC0319F18AC7001AADFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HealthyFoodFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthyFoodFinder.app/HealthyFoodFinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5254CBD619F18AC7001AADFE /* Build configuration list for PBXProject "HealthyFoodFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5254CBFC19F18AC7001AADFE /* Debug */,
+				5254CBFD19F18AC7001AADFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5254CBFE19F18AC7001AADFE /* Build configuration list for PBXNativeTarget "HealthyFoodFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5254CBFF19F18AC7001AADFE /* Debug */,
+				5254CC0019F18AC7001AADFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5254CC0119F18AC7001AADFE /* Build configuration list for PBXNativeTarget "HealthyFoodFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5254CC0219F18AC7001AADFE /* Debug */,
+				5254CC0319F18AC7001AADFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5254CBD319F18AC7001AADFE /* Project object */;
+}
